@@ -32,7 +32,7 @@ Body {
     Color : pink;
 }
 
-#Number-1 ,#Number-2{
+#Number-1 ,#Number-2 ,#User-Answer{
     Background-Color : Transparent;
     width : 250px;
     border-color: transparent;
@@ -42,12 +42,23 @@ Body {
 }
 
 #que-input {
-    text-align: center;
-    margin-top: 100px;
-    margin-left: 875px;
+    text-align : center;
+    margin-left: 1000px;
 }
 
 #Set {
     background-color: transparent;
     border: transparent;
+}
+
+.set {
+    background-color: transparent;
+    border: transparent;
+}
+#Que-Player , #Ans-Player {
+    display: inline-block;
+}
+
+#Player1 , #Player2 {
+    font-size: 25px;
 }
