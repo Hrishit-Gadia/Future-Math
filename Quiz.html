@@ -1,0 +1,71 @@
+<Html>
+
+<Head>
+
+    <Title>
+        Future Quiz
+    </Title>
+
+    <Link Rel="StyleSheet" Href="Quiz.css">
+
+    <Script Src="Quiz.js"></Script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+</Head>
+
+<Body onload="Set()">
+
+    <center>
+        <H1 Class="White-Text">Future Quiz</H1>
+    </center>
+
+    <H3 id="Que-player" Class="Yellow-Text">Answer Turn</H3>
+
+    <H2 Class="Blue-Text" Id="Player1">Player-1</H2>
+
+    <H3 id="Ans-player" Class="Yellow-Text">
+        Question Turn
+    </H3>
+
+    <H2 Class="Blue-Text" Id="Player2">
+        Player-2
+    </H2>
+
+
+        <Div id = "que-input">
+
+    <H2 Class="Orange-Text">
+        Number-1
+    </H2>
+    
+    <Input id  = "Number-1" placeholder="kindly enter first number here" type="number">
+
+        <H1 class = "White-Text">multiplied by</H1>
+
+        <H2 Class="Orange-Text">
+            Number-2
+        </H2>
+        
+        <Input id  = "Number-2" placeholder="kindly enter first number here" type="number">
+            <Br>
+                <br>
+                <button id = "set" onclick = "Show()" class="Yellow-Text">Submit</button>
+
+
+            </Div>
+
+
+</Body>
+
+</Html>

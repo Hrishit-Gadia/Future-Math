@@ -1,0 +1,53 @@
+Body {
+    Background-Image : Url("Chalk-Board.png");
+}
+
+.White-Text {
+    Font-Family : 'Permanent Marker', Cursive;
+    Color : White;
+}
+
+.Blue-Text {
+    Font-Family : 'Permanent Marker', Cursive;
+    Color : Cyan;
+}
+
+.Yellow-Text {
+    Font-Family : 'Permanent Marker', Cursive;
+    Color : yellow;
+}
+
+.Orange-Text {
+    Font-Family : 'Permanent Marker', Cursive;
+    Color : Orange;
+}
+
+.Green-Text {
+    Font-Family : 'Permanent Marker', Cursive;
+    Color : rgb(0, 255, 0);
+}
+
+::placeholder{
+    Font-Family : 'Permanent Marker', Cursive;
+    Color : pink;
+}
+
+#Number-1 ,#Number-2{
+    Background-Color : Transparent;
+    width : 250px;
+    border-color: transparent;
+    Font-Family : 'Permanent Marker', Cursive;
+    Color : pink;
+    text-align: center;
+}
+
+#que-input {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 875px;
+}
+
+#Set {
+    background-color: transparent;
+    border: transparent;
+}

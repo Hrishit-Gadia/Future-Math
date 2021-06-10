@@ -1,0 +1,45 @@
+Body {
+    Background-Image : Url('BackGround.png');
+    Background-Size : Cover;
+    Width : 850px;
+}
+
+.White-Text {
+    Color : #ffffff;
+}
+
+#Heading {
+    Font-Size : 65px;
+    Margin-Left : 665px;
+    Margin-Top : -3;
+    font-family: 'Gochi Hand', Cursive;
+}
+
+.Login-Col {
+		Float : None;
+		Border-Radius : 15px;
+}
+
+#Name-1 , #Name-2 {
+Width : 250px;
+}
+
+#Login-1 {
+    Margin-Left : 100px;
+    Margin-Top : -100px;
+}
+
+#Login-2 {
+    Margin-Left : 900px;
+    Margin-Top : 75px;
+}
+
+#Submit {
+    Background-Color : Black;
+    Margin-Top : 125px;
+    Margin-Left : 375px;
+    Width : 530px;
+    Border-Color : Black;
+    Font-Size : 25px;
+    font-family: 'Gochi Hand', Cursive;
+}
