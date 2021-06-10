@@ -55,7 +55,7 @@ Body {
     background-color: transparent;
     border: transparent;
 }
-#Que-Player , #Ans-Player {
+#Type-Player-1 , #Type-Player-2 {
     display: inline-block;
 }
 
